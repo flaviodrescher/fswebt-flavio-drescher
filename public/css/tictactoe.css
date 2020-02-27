@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+#game-section {
+    visibility: hidden;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+    width: 551px;
+}
+
+td {
+    height: 175px;
+    width: 175px;
+    text-align: center;
+    font-size: 110px;
+    border: 3px solid #494c53;
+}
+
+#score-board {
+    margin: 0 auto 10px auto;
+    padding: 0 10px 10px 10px;
+    width: 511px;
+    text-align: left;
+}
+
+#game-status {
+    color: #d50006;
+}
+
+#p1score, #p2score {
+    display: inline-block;
+    margin: 20px 20px 0 50px;
+    color: #494c53;
+}
+
+#p2score {
+    float: right;
+}
+
+.current-player {
+    border-bottom: 3px solid;
+}
+
+.X-label, #X.current-player {
+    color: #7CFC00 !important;
+}
+
+.O-label, #O.current-player {
+    color: #d50006 !important;
+}

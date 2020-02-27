@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/tictactoe.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/board.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="username-section">
+    <label for="nickname">Name:</label>
+    <input id="nickname" type="text" autofocus>
+    <input id="start-button" type="button" class="button" value="Start">
+</div>
+<div id="game-section">
+    <div id="game-status"></div>
+    <div id="score-board">
+        <div id="p1score" data-playerid="" data-sign=""></div>
+        <div id="p2score" data-playerid="" data-sign=""></div>
+    </div>
+    <table>
+        <tr>
+            <td id="0"></td>
+            <td id="1"></td>
+            <td id="2"></td>
+        </tr>
+        <tr>
+            <td id="3"></td>
+            <td id="4"></td>
+            <td id="5"></td>
+        </tr>
+        <tr>
+            <td id="6"></td>
+            <td id="7"></td>
+            <td id="8"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
