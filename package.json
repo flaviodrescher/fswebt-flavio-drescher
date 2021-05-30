@@ -10,7 +10,7 @@
         "express": "^4.17.1",
         "hamming": "0.0.2",
         "mongodb": "^3.5.4",
-        "ws": "^6.2.1"
+        "ws": "^7.4.6"
     },
     "devDependencies": {
         "jest": "^24.9.0",
