@@ -7,7 +7,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "hamming": "0.0.2",
         "mongodb": "^3.5.4",
         "ws": "^6.2.1"
